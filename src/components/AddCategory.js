@@ -21,7 +21,7 @@ export const AddCategory = ({ setCategories }) => {
 
     if( inputValue.trim().length > 2) {
     console.log('recibimos el valor de la caja de texto: ', inputValue);
-    setCategories( cats => [ inputValue, ...cats, ]);
+    setCategories( cats => [ inputValue, ...cats, ]); //pone los gifs nuevos al inicio
     //ponemos un espacio vacio para que no muestre nada despues de hacer enter
     setInputValue(''); 
     }

@@ -13,9 +13,9 @@ import React from 'react'
   //desestructuramos { img.title } y nos queda { title }
  */
 
-  export const GifGridItem = ( {title, url} ) => {
+  export const GifGridItem = ( { title, url } ) => {
   return (
-    <div>
+    <div className="card">
        <img src= { url }  alt= { title } />
        <p> { title } </p>
       

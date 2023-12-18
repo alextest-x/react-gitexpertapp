@@ -14,8 +14,9 @@ export const GifExpertApp = () => {
     const [categories, setCategories] = useState([ 'One Punch', 'Samarai X', 'Dragon Ball']);
 
     */
-
-    const [categories, setCategories] = useState([ 'One Punch']);
+     
+    //envia a la caja de texto de busquedad 
+    const [categories, setCategories] = useState([ 'hola']);
   
 
     //para poner un nuevo elemento en la lista usamos el setCategories
